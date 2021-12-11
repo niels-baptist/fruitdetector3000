@@ -28,4 +28,4 @@ manual_scaling:
 resources:
   cpu: 1
   memory_gb: 0.5
-  disk_size_gb: 63
+  disk_size_gb: 64
