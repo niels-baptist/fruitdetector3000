@@ -1,0 +1,46 @@
+body {
+    background-color: #FFF9F3 !important;
+}
+
+.background-image {
+    background-image: url("https://wallpaperaccess.com/full/450774.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 50px;
+
+    box-shadow: inset 0 0 0 1000px rgba(255,255,255,.6);
+}
+
+.figure figcaption {
+    background-color: rgba(54, 207, 92,1);
+}
+
+/* (A) UPLOAD ZONE */
+#upzone {
+    margin: auto;
+
+    padding: 10px;
+    width: 80%; 
+    height: 200px; 
+
+    border-radius: 20px;
+    border: 5px solid #eda1b7;
+
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.6);
+
+    color: #eee;
+    background: rgba(0,0,0, 0.4);
+}
+#upzone.highlight {
+    color: #000;
+}
+
+#upzone.highlight i {
+    transform: rotate(180deg);
+}
+
+/* (B) UPLOAD FORM */
+#upform {
+  display: none;
+}
